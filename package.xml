@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>launch_scoped_include</name>
+  <version>0.0.0</version>
+  <description>Extension to `launch` to include launchfiles in a scoped manner.</description>
+  <maintainer email="36795178+SuperJappie08@users.noreply.github.com">jap</maintainer>
+  <license>MIT</license>
+
+  <depend>launch</depend>
+  <depend>ros2launch</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
